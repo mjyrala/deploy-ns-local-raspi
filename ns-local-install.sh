@@ -5,7 +5,7 @@
 ## TODO: set /etc/domainname
 
 # make me current
-sudo apt-get update && sudo apt-get upgrade -y
+#sudo apt-get update && sudo apt-get upgrade -y
 
 # get the right node
 CPU_MODEL=$( awk '/model name/ {print $4}' < /proc/cpuinfo )
